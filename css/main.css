@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  margin: 0;
+}
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+.hidden {
+  display: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #666;
+}
+.sitecontainer {
+  margin: 0 auto;
+  width: 920px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mainHeader {
+  margin-top: 40px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+.topsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.mainNavLeft {
+  width: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.logo {
+  width: 140px;
+  background-color: black;
+}
+.mainNavRight {
+  width: 200px;
+  background-color: black;
+}
+.background {
+  padding-bottom: 100px;
+}
+.Slogan {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: black;
+  margin: auto;
+  padding: 2px;
+}
+.Welcome {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.welcometext {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: black;
+  margin: auto;
+  padding: 2px;
+}
+.Mainbeer {
+  width: 300px;
+  max-width: 500px;
+  border-radius: 30px;
+  background: black;
+  margin: auto;
+  padding: 10px;
+}
+.Products {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.Products > * {
+  flex: 1 1 200px;
+}
+
+.Product-1 {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  background-color: black;
+}
+.Product-2 {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  background-color: black;
+}
+.Product-3 {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  background-color: black;
+}
+.Product-4 {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  background-color: black;
+}
+.Product-5 {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  background-color: black;
+}
+.Product-6 {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  background-color: black;
+}
+.promo {
+  margin-top: 40px;
+  padding-bottom: 90px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+.promoText {
+  float: right;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color: black;
+}
+
+.PromoImage {
+  float: left;
+  width: 400px;
+  margin-right: 40px;
+  margin-top: 40px;
+  background-color: black;
+}
+footer {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+  justify-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.footer > * {
+  flex: 1 1 200px;
+}
+.FooterLogo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-color: black;
+}
+.SocialIcon {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.FooterNav {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.ProductSlogan {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+}
+.SubscribeText {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+  background-color: black;
+  align-items: center;
+}
+
+.EmailInput {
+  width: 400px;
+  height: 100px;
+  overflow: hidden;
+  background-color: black;
+}
+.ContactUs {
+  margin-top: 40px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+.CompanyInfo {
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+.form {
+  margin-top: 40px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+.EmailUs {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  align-items: center;
+}
+.Container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
